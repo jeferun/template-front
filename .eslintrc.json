@@ -45,7 +45,20 @@
     "semi": [
       "error",
       "always"
-    ]
+    ],
+    "no-mixed-spaces-and-tabs": "off",
+    "indent": "off",
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "no-console": "error",
+    "no-debugger": "warn",
+    "eqeqeq": "error"
   },
   "settings": {
     "import/resolver": {
