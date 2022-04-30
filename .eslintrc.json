@@ -56,9 +56,10 @@
       "error",
       "single"
     ],
-    "no-console": "error",
+//"no-console": "error",
     "no-debugger": "warn",
-    "eqeqeq": "error"
+    "eqeqeq": "error",
+    "no-undef" : "off"
   },
   "settings": {
     "import/resolver": {

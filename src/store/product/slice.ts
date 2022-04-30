@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 
 /* interface */// organizar
@@ -14,8 +14,13 @@ interface IState {
 /* fin */
 
 const initialState: IState = {
+  // sample data
   products: [
-    {name: 'product', type: 's'},
+    {name: 'product 1', type: 's'},
+    {name: 'product 2', type: 's'},
+    {name: 'product 3', type: 'd'},
+    {name: 'product 4', type: 'd'},
+    {name: 'product 5', type: 's'},
   ]
 };
 

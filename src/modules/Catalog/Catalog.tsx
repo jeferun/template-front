@@ -6,15 +6,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 // redux
 import { useSelector, useDispatch } from 'react-redux';
-// reducer
-import { addProduct } from 'store/product';
-// type
-import { RootState } from 'store';
+// reducer and selectors
+import { addProduct, selectProductsByTypeA } from 'store/product';
 
 function Catalog() {
   const dispactch = useDispatch();
 
-  const products = useSelector((state: RootState) => state.product.products);
+  const products = useSelector(selectProductsByTypeA, () => false);
   const handleAddProduct = () => {
     dispactch(addProduct({
       name: 'new product',
