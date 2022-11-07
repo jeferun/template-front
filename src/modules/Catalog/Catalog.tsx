@@ -1,4 +1,3 @@
-import React from 'react';
 // bootstrap
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';

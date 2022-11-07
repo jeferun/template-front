@@ -1,9 +1,9 @@
-import React from 'react';
+import { ReactNode } from 'react';
 // module
 import NavBar from 'components/NavBar';
 
 interface IProps {
-  children: JSX.Element
+  children: ReactNode;
 }
 
 function LayoutA({children}: IProps) {

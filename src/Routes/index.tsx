@@ -1,4 +1,4 @@
-import React from 'react';
+import { Suspense } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 // layouts
 import Layout from 'layouts';
@@ -15,9 +15,9 @@ const getRoutes = () => (
         key={key}
         path={path}
         element={
-          <React.Suspense fallback='Loanding...'>
+          <Suspense fallback='Loanding...'>
             <Component />
-          </React.Suspense>
+          </Suspense>
         }
       />
     );
